@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Siemens Software Newsroom</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://static.sw.cdn.siemens.com/vision/disw-vision.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://prototypes.swi.siemens.com/css/disw-sub-header.css"
+		/>
+    
+		<script src="https://static.sw.cdn.siemens.com/disw/disw-utils/1.x/disw-utils.min.js"></script>
+		<script>
+			window.disw.init();
+		</script>
+		<script
+			type="module"
+			src="https://static.sw.cdn.siemens.com/disw/universal-components/1.x/esm/index.module.js"
+		></script>
+		<script type="module">
+			window.universalComponents.init(["disw-header-v2", "disw-footer"]);
+		</script>
+	</head>
+	<body class="body-fixed-top">
+		<disw-header-v2
+			account="true"
+			navslug="global-nav"
+			scroll="true"
+			theme="dark"
+		></disw-header-v2>
+		<div class="disw-sub-header" id="disw-sub-header">
+			<div class="disw-sub-header-container p-x-md">
+				<div class="disw-subsite">
+					<a href="#" id="subNavHdr">Siemens Software Newsroom</a>
+				</div>
+				<input type="checkbox" id="subNavHdrMobileHdr" />
+				<label for="subNavHdrMobileHdr"
+					>Siemens Software Newsroom</label
+				>
+				<nav
+					class="disw-nav-secondary"
+					aria-label="Secondary"
+					aria-labelledby="subnavHeader"
+				>
+					<ul>
+						<li class="active">
+							<a href="#" aria-current="page">Overview</a>
+						</li>
+						<li>
+							<a href="#">All News</a>
+						</li>
+						<li>
+							<a href="#">Blogs</a>
+						</li>
+						<li>
+							<a href="#">Resources</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	<main class="container p-y-md p-lg-y-lg p-x-md">
+      <!-- Newsroom Section -->
+      <section >
+      <div class="p-a m-md-b-xl">
+        <div class="row show-grid">
+			<div class="p-a-lg col-md-7">
+        <!-- wrap the kicker text and the header in a .group-focus  -->
+        <div class="group-focus">
+          <strong class="text-kicker">Siemens Digital Industries</strong>
+          <h1>Newsroom</h1>
+        </div>
+        <!-- content below provided for vertical rhythm context-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="item-md-flex">
+          <div>
+            
+            <!-- I don't like the way the social icon text is wrapping. I would discuss shortening text and also whether we wanted to make that row able to be wider than the row above it. Or the option to have those go into a stack at a narrower screen size.  -->
+              <a  class="text-600 text-sm btn-text m-b-sm" href="https://www.linkedin.com/company/siemens/" target="_blank"><svg aria-hidden="true" class="icon icon-sm">
+                <use xlink:href="#icon-linkedin"></use>
+              </svg> Follow On LinkedIn</a> 
+            
+          </div>
+          <div class="m-md-l-md">
+            
+              <a  class="text-600 text-sm btn-text m-b-sm" href="https://www.instagram.com/p/CZrppv3A-30/" target="_blank" ><svg aria-hidden="true" class="icon icon-sm">
+                <use xlink:href="#icon-instagram"></use>
+              </svg> Download full bio</a>
+          
+          </div>
+          <div class="m-md-l-md">
+            <a  class="text-600 text-sm btn-text m-b-sm" href="https://www.facebook.com/Siemens" >
+              <svg aria-hidden="true" class="icon icon-sm">
+                <use xlink:href="#icon-facebook"></use>
+              </svg> Download press photo </a>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+    <!-- Gray Promo -->
+    <section class="fullwidth">
+      <div class="bg-grey-light p-y-xxl p-a-xl">
+          
+        <div >
+            <div class="row align-items-center m-y">
+                <div class="col-md-6 col-xs-12 space-children">
+                    <strong class="text-kicker">Featured</strong>
+                    <h3 class="m-t-xs">Mauris erat augue, luctus eget elit eget, faucibus tincidunt dolor</h3>
+                    <p class="m-b-md">Maecenas rutrum, lacus <strong>vitae ornare</strong> molestie, magna sem luctus erat, dignissim tempor est enim ac mi. Phasellus at lectus eget odio tristique luctus id vel magna.</p>
+                    <a href="press.html" class="btn btn-secondary m-b-md  m-md-b-0">Read Featured</a>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="pos-r embed-responsive embed-responsive-4by3 aspect-4-3 m-b-0 promo">
+                      <!-- There was a lot of padding in this section - but I could see on the image in the xd.adobe file that the image used seemed to be much larger than it looked, so it was sort of adding a lot of extra padding. I went with the padding that seemed indicated in the style guides. -->
+                       <img
+                          src="images/plchldr.png"
+                           
+                            /> 
+                      <!-- FPO - optional trigger to launch full image in a new lightbox/overlay with additional javascript-->
+                      <a href="images/placeholder-slider.jpg" class="btn-circle btn-circle-sm pos-a" style="top:1em;right:1em">
+                        <svg class="btn-circle-icon"><use xlink:href="#icon-maximize"></use></svg>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+
+    </section>
+    <!-- For the filter cards, I wanted to start them off in the closed state, largely because that's how the layout had it. I felt like if someone didn't want to use the filter it was a lot of wasted space that they could be engaging with the content. It's obviously a quick switch back if the cards were intended to be shown fully.  -->
+    <section class="p-t-xxl p-x-md">
+      <div class="row ">
+        <div class="col-md-4">
+      <p class="large-text">Filter by</p>
+    </div>
+    </div>
+    <div class="row">
+      <!-- search filters 1 -->
+      <div class="col-md-4">
+        
+      <div style="width:325px">
+        
+        <div class="card">
+          <h4 class="text-normal m-a-0 btn-toggle-next border-a border-1 border-grey hover-transition hover-border-aqua">
+            <button class="item-flex btn-reset btn-block text-600 btn-resource-filters-toggle p-l p-r-sm p-y-sm" aria-expanded="false">
+              Product
+              <span class=" m-l-auto p-l-sm border-l border-grey border-1"><svg class="icon icon-normal"><use xlink:href="#icon-dropdown"></use></svg></span>
+            </button>
+          </h4>
+          
+          <div id="resource-filters" hidden class="border-1 border-b border-r border-l border-grey ">
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="customer" id="customer" class="filter form-checkbox" data-value="Customer Story" />
+              <label class="form-checkbox-label item-flex" for="customer">Customer Stories</label>
+            </div>
+      
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="whitepaper" id="whitepaper" class="filter form-checkbox" data-value="White Paper" />
+              <label class="form-checkbox-label item-flex" for="whitepaper">White Papers</label>
+            </div>
+      
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="webinar" id="webinar" class="filter form-checkbox" data-value="On-Demand Webinar" />
+              <label class="form-checkbox-label item-flex" for="webinar">On-Demand Webinars</label>
+            </div>
+      
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="webinar-live" id="webinar-live" class="filter form-checkbox" data-value="Live Webinar" />
+              <label class="form-checkbox-label item-flex" for="webinar-live">Live Webinars</label>
+            </div>
+      
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="factsheet" id="factsheet" class="filter form-checkbox" data-value="Factsheet" />
+              <label class="form-checkbox-label item-flex" for="factsheet">Factsheets</label>
+            </div>
+      
+            <div id="resource-filters-more" hidden>
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="video" id="video" class="filter form-checkbox" data-value="Video" />
+                <label class="form-checkbox-label item-flex" for="video">Videos</label>
+              </div>
+      
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="download" id="download" class="filter form-checkbox" data-value="Software Download" />
+                <label class="form-checkbox-label item-flex" for="download">Software Download</label>
+              </div>
+            </div>
+      
+            <button class="p-y p-x btn-reset text-secondary-lightest btn-toggle-previous btn-resource-filters-more text-600" aria-expanded="false"></button>
+      
+          </div>
+          
+        </div>
+        
+      </div>
+      </div>
+      <!-- search filters 2 -->
+      <div class="col-md-4">
+      <div style="width:325px">
+
+        <div class="card">
+          <h4 class="text-normal m-a-0 btn-toggle-next border-a border-1 border-grey hover-transition hover-border-aqua">
+            <button class="item-flex btn-reset btn-block text-600 btn-resource-filters-toggle p-l p-r-sm p-y-sm" aria-expanded="false">
+             Industry
+              <span class=" m-l-auto p-l-sm border-l border-grey border-1"><svg class="icon icon-normal"><use xlink:href="#icon-dropdown"></use></svg></span>
+            </button>
+          </h4>
+          <div id="resource-filters" hidden class="border-1 border-b border-r border-l border-grey">
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="customer" id="customer" class="filter form-checkbox" data-value="Customer Story" />
+              <label class="form-checkbox-label item-flex" for="customer">Customer Stories</label>
+            </div>
+
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="whitepaper" id="whitepaper" class="filter form-checkbox" data-value="White Paper" />
+              <label class="form-checkbox-label item-flex" for="whitepaper">White Papers</label>
+            </div>
+
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="webinar" id="webinar" class="filter form-checkbox" data-value="On-Demand Webinar" />
+              <label class="form-checkbox-label item-flex" for="webinar">On-Demand Webinars</label>
+            </div>
+
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="webinar-live" id="webinar-live" class="filter form-checkbox" data-value="Live Webinar" />
+              <label class="form-checkbox-label item-flex" for="webinar-live">Live Webinars</label>
+            </div>
+
+            <div class="p-a hover-bg-grey-lighter">
+              <input type="checkbox" name="factsheet" id="factsheet" class="filter form-checkbox" data-value="Factsheet" />
+              <label class="form-checkbox-label item-flex" for="factsheet">Factsheets</label>
+            </div>
+
+            <div id="resource-filters-more" hidden>
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="video" id="video" class="filter form-checkbox" data-value="Video" />
+                <label class="form-checkbox-label item-flex" for="video">Videos</label>
+              </div>
+
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="download" id="download" class="filter form-checkbox" data-value="Software Download" />
+                <label class="form-checkbox-label item-flex" for="download">Software Download</label>
+              </div>
+            </div>
+
+            <button class="p-y p-x btn-reset text-secondary-lightest btn-toggle-previous btn-resource-filters-more text-600" aria-expanded="false"></button>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- search filters 3 -->
+      <div class="col-md-4">
+        <div style="width:325px">
+  
+          <div class="card">
+            <h4 class="text-normal m-a-0 btn-toggle-next border-a border-1 border-grey hover-transition hover-border-aqua">
+              <button class="item-flex btn-reset btn-block text-600 btn-resource-filters-toggle p-l p-r-sm p-y-sm" aria-expanded="false">
+                Placeholder
+                <span class=" m-l-auto p-l-sm border-l border-grey border-1"><svg class="icon icon-normal"><use xlink:href="#icon-dropdown"></use></svg></span>
+              </button>
+            </h4>
+            <div id="resource-filters" hidden class="border-1 border-b border-r border-l border-grey">
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="customer" id="customer" class="filter form-checkbox" data-value="Customer Story" />
+                <label class="form-checkbox-label item-flex" for="customer">Customer Stories</label>
+              </div>
+  
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="whitepaper" id="whitepaper" class="filter form-checkbox" data-value="White Paper" />
+                <label class="form-checkbox-label item-flex" for="whitepaper">White Papers</label>
+              </div>
+  
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="webinar" id="webinar" class="filter form-checkbox" data-value="On-Demand Webinar" />
+                <label class="form-checkbox-label item-flex" for="webinar">On-Demand Webinars</label>
+              </div>
+  
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="webinar-live" id="webinar-live" class="filter form-checkbox" data-value="Live Webinar" />
+                <label class="form-checkbox-label item-flex" for="webinar-live">Live Webinars</label>
+              </div>
+  
+              <div class="p-a hover-bg-grey-lighter">
+                <input type="checkbox" name="factsheet" id="factsheet" class="filter form-checkbox" data-value="Factsheet" />
+                <label class="form-checkbox-label item-flex" for="factsheet">Factsheets</label>
+              </div>
+  
+              <div id="resource-filters-more" hidden>
+                <div class="p-a hover-bg-grey-lighter">
+                  <input type="checkbox" name="video" id="video" class="filter form-checkbox" data-value="Video" />
+                  <label class="form-checkbox-label item-flex" for="video">Videos</label>
+                </div>
+  
+                <div class="p-a hover-bg-grey-lighter">
+                  <input type="checkbox" name="download" id="download" class="filter form-checkbox" data-value="Software Download" />
+                  <label class="form-checkbox-label item-flex" for="download">Software Download</label>
+                </div>
+              </div>
+  
+              <button class="p-y p-x btn-reset text-secondary-lightest btn-toggle-previous btn-resource-filters-more text-600" aria-expanded="false"></button>
+  
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+    <!-- End search filters  -->
+    <!-- Press Release Section -->
+    <section class="press content-feed">
+      <div class="p-x-md p-t-md">
+        <div class="row p-b-md show-grid">
+          <div class="p-x-md p-t-md col-md-5 ">
+            <!-- wrap the kicker text and the header in a .group-focus  -->
+            <div class="group-focus">
+              <strong class="text-kicker">News</strong>
+              <h2>Press Releases</h2>
+            </div>
+            <!-- content below provided for vertical rhythm context-->
+            <p>Find the latest Press Releases from Siemens Digital Industries Software and stay up-to-date on what's happening.</p>
+            
+          </div>
+          <div class="p-y-md col-md-3">
+            <h3>Press Contact</h3>
+            First Name Last Name <br>
+            <a  href="mailto:first.last@siemens.com">first.last@siemens.com</a><br>
+            Frist Name Last Name<br>
+            <a href="mailto:first.last@siemens.com">first.last@siemens.com</a>
+          </div>
+      </div>
+      </div>
+    <div class="press-release-item">
+      <div class="m-md-b-lg">
+        <div class="row press-sec p-x-md">
+          <div class=" p-b-lg col-md-3 press-col">
+            <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+          </div>
+          <div class=" p-b-lg col-md-5 press-block">
+            <strong class="text-kicker">Press Release</strong>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+            <p class="light-text p-b-md">12 March 2022</p>
+            <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Press Release</a></div>
+            
+
+          </div>
+          </div>
+          <div class="row p-l-md">
+            <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+          </div>
+          </div>
+
+    </div>
+    <div class="press-release-item">
+      <div class="m-md-b-lg">
+        <div class="row press-sec p-x-md">
+          <div class=" p-b-lg col-md-3 press-col">
+            <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+          </div>
+          <div class=" p-b-lg col-md-5 press-block">
+            <strong class="text-kicker">Press Release</strong>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+            <p class="light-text p-b-md">12 March 2022</p>
+            <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Press Release</a></div>
+            
+
+          </div>
+          </div>
+          <div class="row p-l-md">
+            <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+          </div>
+          </div>
+
+    </div>
+    <div class="last press-release-item">
+      <div class="m-md-b-lg">
+        <div class="row press-sec p-x-md">
+          <div class=" p-b-lg col-md-3 press-col">
+            <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+          </div>
+          <div class=" p-b-lg col-md-5 press-block">
+            <strong class="text-kicker">Press Release</strong>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+            <p class="light-text p-b-md">12 March 2022</p>
+            <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Press Release</a></div>
+            
+
+          </div>
+          </div>
+          <div class="row p-l-md">
+            <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+          </div>
+            <div class="row p-l-md">
+            <div class="col-md-8 p-t-lg see-more-link"><a href="press.html" class="btn-text">See More</a></div>
+          </div>
+          
+          </div>
+
+    </div>
+  </section>
+  <section class="stories content-feed">
+    <div class="p-x-md p-t-md">
+      <div class="row p-b-md show-grid">
+        <div class="p-x-md p-t-md col-md-5 ">
+          <!-- wrap the kicker text and the header in a .group-focus  -->
+          <div class="group-focus">
+            <strong class="text-kicker">News</strong>
+            <h2>Customer Stories</h2>
+          </div>
+          <!-- content below provided for vertical rhythm context-->
+          <p>Find the latest Press Releases from Siemens Digital Industries Software and stay up-to-date on what's happening.</p>
+          
+        </div>
+        
+    </div>
+    </div>
+  <div class="press-release-item">
+    <div class="m-md-b-lg">
+      <div class="row press-sec p-x-md">
+        <div class=" p-b-lg col-md-3 press-col">
+          <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+        </div>
+        <div class=" p-b-lg col-md-5 press-block">
+          <strong class="text-kicker">Customer Story</strong>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+          <p class="light-text p-b-md">12 March 2022</p>
+          <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+          
+
+        </div>
+        </div>
+        <div class="row p-l-md">
+          <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+        </div>
+        </div>
+
+  </div>
+  <div class="press-release-item">
+    <div class="m-md-b-lg">
+      <div class="row press-sec p-x-md">
+        <div class=" p-b-lg col-md-3 press-col">
+          <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+        </div>
+        <div class=" p-b-lg col-md-5 press-block">
+          <strong class="text-kicker">Customer Story</strong>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+          <p class="light-text p-b-md">12 March 2022</p>
+          <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+          
+
+        </div>
+        </div>
+        <div class="row p-l-md">
+          <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+        </div>
+        </div>
+
+  </div>
+  <div class="last press-release-item">
+    <div class="m-md-b-lg">
+      <div class="row press-sec p-x-md">
+        <div class=" p-b-lg col-md-3 press-col">
+          <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+        </div>
+        <div class=" p-b-lg col-md-5 press-block">
+          <strong class="text-kicker">Customer Story</strong>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+          <p class="light-text p-b-md">12 March 2022</p>
+          <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+          
+
+        </div>
+        </div>
+        <div class="row p-l-md">
+          <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+        </div>
+          <div class="row p-l-md">
+          <div class="col-md-8 p-t-lg see-more-link"><a href="press.html" class="btn-text">See More</a></div>
+        </div>
+        
+        </div>
+
+  </div>
+</section>
+
+<section class="other content-feed">
+  <div class="p-x-md p-t-md">
+    <div class="row p-b-md show-grid">
+      <div class="p-x-md p-t-md col-md-5 ">
+        <!-- wrap the kicker text and the header in a .group-focus  -->
+        <div class="group-focus">
+          <strong class="text-kicker">News</strong>
+          <h2>Another Category</h2>
+        </div>
+        <!-- content below provided for vertical rhythm context-->
+        <p>Find the latest Press Releases from Siemens Digital Industries Software and stay up-to-date on what's happening.</p>
+        
+      </div>
+      
+  </div>
+  </div>
+<div class="press-release-item">
+  <div class="m-md-b-lg">
+    <div class="row press-sec p-x-md">
+      <div class=" p-b-lg col-md-3 press-col">
+        <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+      </div>
+      <div class=" p-b-lg col-md-5 press-block">
+        <strong class="text-kicker">Another Category</strong>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+        <p class="light-text p-b-md">12 March 2022</p>
+        <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+        
+
+      </div>
+      </div>
+      <div class="row p-l-md">
+        <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+      </div>
+      </div>
+
+</div>
+<div class="press-release-item">
+  <div class="m-md-b-lg">
+    <div class="row press-sec p-x-md">
+      <div class=" p-b-lg col-md-3 press-col">
+        <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+      </div>
+      <div class=" p-b-lg col-md-5 press-block">
+        <strong class="text-kicker">Another Category</strong>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+        <p class="light-text p-b-md">12 March 2022</p>
+        <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+        
+
+      </div>
+      </div>
+      <div class="row p-l-md">
+        <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+      </div>
+      </div>
+
+</div>
+<div class="last press-release-item">
+  <div class="m-md-b-lg">
+    <div class="row press-sec p-x-md">
+      <div class=" p-b-lg col-md-3 press-col">
+        <img src="images/articlePlacehldr.png" alt="Press release from Lorem Ipsum Co.">
+      </div>
+      <div class=" p-b-lg col-md-5 press-block">
+        <strong class="text-kicker">Another Category</strong>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing non</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ante eu mi pulvinat venenatis non sit amet elit.</p>
+        <p class="light-text p-b-md">12 March 2022</p>
+        <div class="link-holder bottom-link"><a href="press.html" class="btn-text">Read Customer Story</a></div>
+        
+
+      </div>
+      </div>
+      <div class="row p-l-md">
+        <div class="press-bot-bdr col-md-8 p-l-0 "></div>
+      </div>
+        <div class="row p-l-md">
+        <div class="col-md-8 p-t-lg p-b-md see-more-link"><a href="press.html" class="btn-text">See More</a></div>
+      </div>
+      
+      </div>
+
+</div>
+</section>		
+		</main>
+		<disw-footer slug="global-footer" theme="dark"></disw-footer>
+	</body>
+	<script>
+  //   export default {
+  // data: function () {
+  //   return {
+  //     expanded: true,
+  //   };
+  // },
+  //   };
+		const ajax = new XMLHttpRequest();
+		ajax.open(
+			"GET",
+			"https://static.sw.cdn.siemens.com/icons/icons-vision.svg",
+			true
+		);
+		ajax.send();
+		ajax.onload = function (e) {
+			const div = document.createElement("div");
+			div.innerHTML = ajax.responseText;
+			document.body.insertBefore(div, document.body.childNodes[0]);
+		};
+    //toggles for filter boxes
+(function() {
+  const headings = document.querySelectorAll('.btn-toggle-next');
+
+  Array.prototype.forEach.call(headings, h => {
+    let btn = h.querySelector('button');
+    let target = h.nextElementSibling;
+
+    btn.onclick = () => {
+      let expanded = btn.getAttribute('aria-expanded') === 'true';
+
+      btn.setAttribute('aria-expanded', !expanded);
+      btn.classList.toggle("is-toggled");
+      target.hidden = expanded;  
+    }
+  });
+
+  const toggles = document.querySelectorAll('.btn-toggle-previous');
+
+  Array.prototype.forEach.call(toggles, toggle => {
+    let toggleTarget = toggle.previousElementSibling;
+
+    toggle.onclick = () => {
+      let expanded = toggle.getAttribute('aria-expanded') === 'true';
+
+      toggle.setAttribute('aria-expanded', !expanded);
+      toggle.classList.toggle("is-toggled");
+      toggleTarget.hidden = expanded;  
+    }
+  });
+})()
+	</script>
+</html>
+<style>
+.container {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #008aa6;
+}
+.light-text {
+  font-weight: lighter;
+  color: #333333bd;
+}
+.icon {
+  vertical-align: middle;
+}
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+/* filter dropdowns*/
+.btn-resource-filters-toggle svg {
+  transform: rotate(180deg);
+}
+.btn-resource-filters-toggle.is-toggled svg {
+  transform: rotate(0deg);
+}
+.btn-resource-filters-more:after {
+  content: "Show more…";
+}
+.btn-resource-filters-more.is-toggled:after {
+  content: "Show less";
+}
+
+#resources-current-filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+#resources-current-filters button {
+  display: none;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/*end filters*/
+.promo img {
+  width: 70%;
+  margin: 0 auto;
+}
+.large-text {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.row.press-sec {
+  padding-left: 0;
+}
+.press-sec {
+  justify-content: start;
+  padding: 0 30px;
+}
+.press-bot-bdr {
+  margin-left: 15px;
+}
+/* .press-sec .press-col {
+  padding-left: 0;
+} */
+.press-bot-bdr {
+  border-bottom: 1px solid #3333332e;
+}
+.press-block {
+  position: relative;
+}
+.bottom-link {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+}
+.row.show-grid {
+  justify-content: space-between;
+}
+.link-holder {
+  display: flex;
+}
+.see-more-link a {
+  font-size: 1.8em;
+}
+.see-more-link {
+  text-align: center;
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .promo img {
+    width: 100%;
+  }
+  .press-bot-bdr {
+    margin-bottom: 37px;
+    width: 85%;
+  }
+}
+
+
+</style>
